@@ -1,6 +1,5 @@
-import axios from 'axios';
+import { User } from './models/User';
 
-axios.post('http://localhost:3000/users', {
-  name: 'gbubemi',
-  bio: 'My new bio',
-});
+const user = new User({ id: 1 });
+
+user.events.on;
